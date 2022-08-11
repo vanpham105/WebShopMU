@@ -1,0 +1,114 @@
+h1 {
+    color: red;
+}
+
+h2 {
+    color: green;
+}
+
+.page-footer {
+    width: 100%;
+    font-size: small;
+    background-color: rgb(53, 50, 50);
+    float: left;
+    margin-top: 20px;
+}
+
+.search-form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sanpham {
+    margin-top: 10px;
+}
+
+.card-price {
+    color: red;
+}
+
+.navbar-expand-lg {
+    background-color: red;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.container-fluid {
+    color: white;
+}
+
+.footer-copyright {
+    color: white;
+}
+
+.footer-brand {
+    color: white;
+}
+
+.btn-home {
+    background-color: red;
+    color: white;
+    margin-left: 10px;
+}
+
+.h4-show {
+    padding: 10px;
+}
+
+.text-uppercase {
+    margin-top: 10px;
+}
+
+.h2-show {
+    color: red;
+}
+
+.h3-signup {
+    margin-top: 20px;
+}
+
+.h3-signin {
+    margin-top: 20px;
+}
+
+.signup-form {
+    margin-bottom: 200px;
+}
+
+.signin-form {
+    margin-bottom: 200px;
+}
+
+.nav-item {
+    padding-right: 30px;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.nav-item-sanpham {
+    padding-left: 100px;
+}
+
+.input-group {
+    width: 100px;
+}

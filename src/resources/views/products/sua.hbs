@@ -1,0 +1,29 @@
+<div class="mt-5">
+    <h3>Sửa sản phẩm</h3>
+    <form method="POST" action="/products/{{product._id}}?_method=PUT">
+        <div class="form-group">
+            <label for="name">Tên sản phẩm</label>
+            <input type="txtName" class="form-control" value ="{{product.name}}" id="name" name="name" >
+        </div>
+        <div class="form-group">
+            <label for="description">Mô tả</label>
+            <textarea type="txtdescription" class="form-control" id="description" name="description" >{{product.description}}</textarea>
+        </div>
+        
+        <div class="form-group">
+            <label for="image">Hình ảnh</label>
+            <input type="text" class="form-control" class="form-control" value ="{{product.image}}" id="image" name="image">
+        </div>
+
+        <div class="form-group">
+            <label for="price">Giá</label>
+            <input type="text" class="form-control" class="form-control" value ="{{product.price}}" id="price" name="price">
+        </div>
+        <div class="form-group">
+            <label for="slug">Mã sản phẩm</label>
+            <input type="text" class="form-control" class="form-control"  value ="{{product.slug}}" id="slug" name="slug">
+        </div>
+        <button type="submit" class="btn btn-primary">Lưu</button>
+        
+    </form>
+</div>
